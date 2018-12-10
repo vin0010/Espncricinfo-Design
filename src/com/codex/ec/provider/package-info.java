@@ -5,4 +5,4 @@
  * @author Vinoth.Gopu
  *
  */
-package com.codex.ec.commentory;
+package com.codex.ec.provider;

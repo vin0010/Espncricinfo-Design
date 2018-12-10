@@ -1,5 +1,15 @@
 package com.codex.ec.match;
 
-public class Series {
+import com.codex.ec.common.SeriesType;
 
+public class Series {
+	private SeriesType seriesType;
+
+	public Series(SeriesType seriesType) {
+		this.seriesType = seriesType;
+	}
+
+	public SeriesType getSeriesType() {
+		return seriesType;
+	}
 }

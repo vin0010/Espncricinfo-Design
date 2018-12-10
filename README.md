@@ -27,11 +27,8 @@ Design of http://espncricinfo.com to improve my low level design skills
     - Admin
     - General Admin
 - Country
- - India
- - Australia
- - South Africa
 - Player
- - How to add-all rounder, keeper captain etc. ?
+ - How to add-all rounder, keeper captain etc. ? - Add properties
 - Umpire
  - 1st Umpire
  - 2nd Umpire
