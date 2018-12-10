@@ -21,3 +21,27 @@ Design of http://espncricinfo.com to improve my low level design skills
 - User can add Series(Bilateral or Tournament)
 - User can add Schedule
 - User can add Telecast Provider
+
+## Textual Analysis
+- User
+    - Admin
+    - General Admin
+- Country
+ - India
+ - Australia
+ - South Africa
+- Player
+ - How to add-all rounder, keeper captain etc. ?
+- Umpire
+ - 1st Umpire
+ - 2nd Umpire
+- Refree
+- Commentators
+ - Different language Commentator
+- Match
+ - Is it require different properties or sub classes?
+- Series
+ - Is it require a sub class or just properties
+- Schedule
+ - Should it contain list of matches?
+- Provider
