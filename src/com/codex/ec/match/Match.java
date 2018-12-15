@@ -20,6 +20,7 @@ public class Match {
 	private Country country1;
 	private Country country2;
 	private Date date;
+	private ScoreCard scoreCard;
 	private Venue venue;
 	private Umpire firstUmpire;
 	private Umpire secondUmpire;
@@ -28,7 +29,7 @@ public class Match {
 	private Commentator commentator;
 
 	public Match(Country country1, Country country2, Date date, Venue venue, Umpire firstUmpire, Umpire secondUmpire,
-			Umpire refree, TelecastProvider provider, Commentator commentator) {
+			Umpire refree, TelecastProvider provider, Commentator commentator, ScoreCard scoreCard) {
 		this.country1 = country1;
 		this.country2 = country2;
 		this.date = date;
@@ -38,6 +39,7 @@ public class Match {
 		this.refree = refree;
 		this.provider = provider;
 		this.commentator = commentator;
+		this.scoreCard = scoreCard;
 	}
 
 	public Country getTeamOne() {
@@ -86,5 +88,19 @@ public class Match {
 
 	public Commentator getCommentator() {
 		return commentator;
+	}
+
+	/**
+	 * @return the scoreCard
+	 */
+	public ScoreCard getScoreCard() {
+		return scoreCard;
+	}
+
+	/**
+	 * @param scoreCard the scoreCard to set
+	 */
+	public void setScoreCard(ScoreCard scoreCard) {
+		this.scoreCard = scoreCard;
 	}
 }
