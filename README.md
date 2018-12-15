@@ -27,11 +27,8 @@ Design of http://espncricinfo.com to improve my low level design skills
     - Admin
     - General Admin
 - Country
- - India
- - Australia
- - South Africa
 - Player
- - How to add-all rounder, keeper captain etc. ?
+ - How to add-all rounder, keeper captain etc. ? - Add properties
 - Umpire
  - 1st Umpire
  - 2nd Umpire
@@ -45,3 +42,24 @@ Design of http://espncricinfo.com to improve my low level design skills
 - Schedule
  - Should it contain list of matches?
 - Provider
+
+## Design Review
+- Since basic design is done, I need to think how this design can accommodate all features planned.
+### Things I missed in design
+- Player of the Match
+- Player of the Series
+- Highest wicket in a series
+- Scorecard
+- Highest runs in a match
+- Highest runs in a series
+- Partnership
+- Dismissal
+- Powerplay
+- Toss
+- Reviews left
+- summary of each day in test cricket.
+
+
+### Feature Verification
+- Check if a Schedule of a series can be received.
+- Check if Result of a series can be revealed

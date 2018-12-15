@@ -1,4 +1,4 @@
-package com.codex.ec.commentory;
+package com.codex.ec.provider;
 
 public class Commentator {
 	private int age;
