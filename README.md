@@ -45,3 +45,15 @@ Design of http://espncricinfo.com to improve my low level design skills
 
 ## Design Review
 - Since basic design is done, I need to think how this design can accommodate all features planned.
+### Things I missed in design
+- Player of the Match
+- Player of the Series
+- Highest wicket in a series
+- Scorecard
+- Highest runs in a match
+- Highest runs in a series
+- Partnership
+
+### Feature Verification
+- Check if a Schedule of a series can be received.
+- Check if Result of a series can be revealed
