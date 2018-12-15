@@ -53,6 +53,12 @@ Design of http://espncricinfo.com to improve my low level design skills
 - Highest runs in a match
 - Highest runs in a series
 - Partnership
+- Dismissal
+- Powerplay
+- Toss
+- Reviews left
+- summary of each day in test cricket.
+
 
 ### Feature Verification
 - Check if a Schedule of a series can be received.
