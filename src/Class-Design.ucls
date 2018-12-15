@@ -4,7 +4,7 @@
   router="FAN">  
   <class id="1" language="java" name="com.codex.ec.country.Country" project="Espncricinfo-Design" 
     file="/Espncricinfo-Design/src/com/codex/ec/country/Country.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="173" width="214" x="274" y="589"/>    
+    <position height="-1" width="-1" x="844" y="729"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -13,7 +13,7 @@
   </class>  
   <class id="2" language="java" name="com.codex.ec.match.Match" project="Espncricinfo-Design" 
     file="/Espncricinfo-Design/src/com/codex/ec/match/Match.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="317" width="521" x="528" y="232"/>    
+    <position height="-1" width="-1" x="1188" y="384"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -31,7 +31,7 @@
   </class>  
   <class id="4" language="java" name="com.codex.ec.player.Player" project="Espncricinfo-Design" 
     file="/Espncricinfo-Design/src/com/codex/ec/player/Player.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="155" width="154" x="274" y="802"/>    
+    <position height="-1" width="-1" x="323" y="725"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -58,7 +58,7 @@
   </class>  
   <class id="7" language="java" name="com.codex.ec.umpire.Umpire" project="Espncricinfo-Design" 
     file="/Espncricinfo-Design/src/com/codex/ec/umpire/Umpire.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="862" y="678"/>    
+    <position height="-1" width="-1" x="1427" y="761"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -95,10 +95,10 @@
   <association id="11">    
     <end type="SOURCE" refId="3" navigable="false">      
       <attribute id="12" name="matches">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="400" y="-6"/>      
       </attribute>      
       <multiplicity id="13" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="400" y="-6"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
@@ -107,10 +107,10 @@
   <association id="14">    
     <end type="SOURCE" refId="1" navigable="false">      
       <attribute id="15" name="players">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="-28" y="-154"/>      
       </attribute>      
       <multiplicity id="16" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="-28" y="-154"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
@@ -123,10 +123,10 @@
   <association id="18">    
     <end type="SOURCE" refId="2" navigable="false">      
       <attribute id="19" name="country2">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="463" y="54"/>      
       </attribute>      
       <multiplicity id="20" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="463" y="54"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
@@ -139,10 +139,10 @@
   <association id="22">    
     <end type="SOURCE" refId="2" navigable="false">      
       <attribute id="23" name="secondUmpire">        
-        <position height="0" width="0" x="257" y="12"/>      
+        <position height="0" width="0" x="822" y="95"/>      
       </attribute>      
       <multiplicity id="24" minimum="0" maximum="1">        
-        <position height="0" width="0" x="257" y="12"/>      
+        <position height="0" width="0" x="822" y="95"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="7" navigable="true"/>    
@@ -151,10 +151,10 @@
   <association id="25">    
     <end type="SOURCE" refId="2" navigable="false">      
       <attribute id="26" name="firstUmpire">        
-        <position height="0" width="0" x="257" y="12"/>      
+        <position height="0" width="0" x="822" y="95"/>      
       </attribute>      
       <multiplicity id="27" minimum="0" maximum="1">        
-        <position height="0" width="0" x="257" y="12"/>      
+        <position height="0" width="0" x="822" y="95"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="7" navigable="true"/>    
@@ -163,10 +163,10 @@
   <association id="28">    
     <end type="SOURCE" refId="2" navigable="false">      
       <attribute id="29" name="country1">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="463" y="54"/>      
       </attribute>      
       <multiplicity id="30" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="463" y="54"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
@@ -175,10 +175,10 @@
   <association id="31">    
     <end type="SOURCE" refId="2" navigable="false">      
       <attribute id="32" name="refree">        
-        <position height="0" width="0" x="257" y="12"/>      
+        <position height="0" width="0" x="822" y="95"/>      
       </attribute>      
       <multiplicity id="33" minimum="0" maximum="1">        
-        <position height="0" width="0" x="257" y="12"/>      
+        <position height="0" width="0" x="822" y="95"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="7" navigable="true"/>    
