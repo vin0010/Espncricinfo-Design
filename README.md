@@ -42,3 +42,6 @@ Design of http://espncricinfo.com to improve my low level design skills
 - Schedule
  - Should it contain list of matches?
 - Provider
+
+## Design Review
+- Since basic design is done, I need to think how this design can accommodate all features planned.
