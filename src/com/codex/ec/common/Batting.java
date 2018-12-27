@@ -1,7 +1,7 @@
 package com.codex.ec.common;
 
-import com.codex.ec.player.BattingType;
-import com.codex.ec.player.PlayerType;
+import com.codex.ec.player.type.BattingType;
+import com.codex.ec.player.type.PlayerType;
 
 public class Batting {
 	private Statistics statistics;

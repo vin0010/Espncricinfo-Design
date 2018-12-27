@@ -1,7 +1,7 @@
 package com.codex.ec.common;
 
-import com.codex.ec.player.PlayerType;
-import com.codex.ec.player.FieldingType;
+import com.codex.ec.player.type.FieldingType;
+import com.codex.ec.player.type.PlayerType;
 
 public class Fielding {
 	private Statistics statistics;
