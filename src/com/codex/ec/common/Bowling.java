@@ -6,6 +6,5 @@ import com.codex.ec.player.PlayerType;
 public class Bowling {
 	private Statistics statistics;
 	private PlayerType playerType;
-	private BattingType battingType;
-	private int order;
+	private BowlingType bowlingType;
 }

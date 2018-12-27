@@ -8,5 +8,4 @@ public class Batting {
 	private PlayerType playerType;
 	private BattingType battingType;
 	private int order;
-	
 }
