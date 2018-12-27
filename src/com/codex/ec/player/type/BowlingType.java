@@ -1,4 +1,4 @@
-package com.codex.ec.player;
+package com.codex.ec.player.type;
 
 public enum BowlingType {
 	RIGHT_ARM_FAST,
