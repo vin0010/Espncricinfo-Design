@@ -5,4 +5,4 @@
  * @author Vinoth.Gopu
  *
  */
-package com.codex.ec.common;
+package com.codex.ec.statistics;

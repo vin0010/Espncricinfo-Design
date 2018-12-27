@@ -1,106 +1,91 @@
 package com.codex.ec.match;
 
-import java.util.Date;
+import java.util.List;
 
-import com.codex.ec.country.Country;
-import com.codex.ec.provider.Commentator;
-import com.codex.ec.provider.TelecastProvider;
-import com.codex.ec.umpire.Umpire;
-import com.codex.ec.venue.Venue;
+import com.codex.ec.common.Batting;
+import com.codex.ec.common.Bowling;
+import com.codex.ec.common.Fielding;
+import com.codex.ec.team.Team;
 
-/**
- * @author Vinoth.Gopu
- *
- */
-/**
- * @author Vinoth.Gopu
- *
- */
 public class Match {
-	private Country country1;
-	private Country country2;
-	private Date date;
-	private ScoreCard scoreCard;
-	private Venue venue;
-	private Umpire firstUmpire;
-	private Umpire secondUmpire;
-	private Umpire refree;
-	private TelecastProvider provider;
-	private Commentator commentator;
+	private Team teamOne;
+	private Team teamTwo;
+	private MatchType matchType;
+	private List<Batting> teamOneBatting;
+	private List<Batting> teamTwoBatting;
+	private List<Bowling> teamOneBowling;
+	private List<Bowling> teamTwoBowling;
+	private List<Fielding> teamOneFielding;
+	private List<Fielding> teamTwoFielding;
+	private Result result;
 
-	public Match(Country country1, Country country2, Date date, Venue venue, Umpire firstUmpire, Umpire secondUmpire,
-			Umpire refree, TelecastProvider provider, Commentator commentator, ScoreCard scoreCard) {
-		this.country1 = country1;
-		this.country2 = country2;
-		this.date = date;
-		this.venue = venue;
-		this.firstUmpire = firstUmpire;
-		this.secondUmpire = secondUmpire;
-		this.refree = refree;
-		this.provider = provider;
-		this.commentator = commentator;
-		this.scoreCard = scoreCard;
-	}
-
-	public Country getTeamOne() {
-		return country1;
-	}
-
-	public Country getTeamTwo() {
-		return country2;
-	}
-
-	public Date getDate() {
-		return date;
+	/**
+	 * @return the teamOne
+	 */
+	public Team getTeamOne() {
+		return teamOne;
 	}
 
 	/**
-	 * @return
+	 * @return the teamTwo
 	 */
-	public Venue gteVenue() {
-		return venue;
+	public Team getTeamTwo() {
+		return teamTwo;
 	}
 
 	/**
-	 * @return the firstUmpire
+	 * @return the matchType
 	 */
-	public Umpire getFirstUmpire() {
-		return firstUmpire;
+	public MatchType getMatchType() {
+		return matchType;
 	}
 
 	/**
-	 * @return the secondUmpire
+	 * @return the teamOneBatting
 	 */
-	public Umpire getSecondUmpire() {
-		return secondUmpire;
+	public List<Batting> getTeamOneBatting() {
+		return teamOneBatting;
 	}
 
 	/**
-	 * @return the refree
+	 * @return the teamTwoBatting
 	 */
-	public Umpire getRefree() {
-		return refree;
-	}
-
-	public TelecastProvider getTelecastProvider() {
-		return provider;
-	}
-
-	public Commentator getCommentator() {
-		return commentator;
+	public List<Batting> getTeamTwoBatting() {
+		return teamTwoBatting;
 	}
 
 	/**
-	 * @return the scoreCard
+	 * @return the teamOneBowling
 	 */
-	public ScoreCard getScoreCard() {
-		return scoreCard;
+	public List<Bowling> getTeamOneBowling() {
+		return teamOneBowling;
 	}
 
 	/**
-	 * @param scoreCard the scoreCard to set
+	 * @return the teamTwoBowling
 	 */
-	public void setScoreCard(ScoreCard scoreCard) {
-		this.scoreCard = scoreCard;
+	public List<Bowling> getTeamTwoBowling() {
+		return teamTwoBowling;
+	}
+
+	/**
+	 * @return the teamOneFielding
+	 */
+	public List<Fielding> getTeamOneFielding() {
+		return teamOneFielding;
+	}
+
+	/**
+	 * @return the teamTwoFielding
+	 */
+	public List<Fielding> getTeamTwoFielding() {
+		return teamTwoFielding;
+	}
+
+	/**
+	 * @return the result
+	 */
+	public Result getResult() {
+		return result;
 	}
 }

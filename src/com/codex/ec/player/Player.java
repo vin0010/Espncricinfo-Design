@@ -1,19 +1,48 @@
 package com.codex.ec.player;
 
+import com.codex.ec.common.Batting;
+import com.codex.ec.common.Bowling;
+import com.codex.ec.common.Fielding;
+
 public class Player {
-	private int age;
-	private String playerName;
+	private String name;
+	private short age;
+	private Batting batting;
+	private Bowling bowling;
+	private Fielding fielding;
 
-	public Player(String playerName, int age) {
-		this.playerName = playerName;
-		this.age = age;
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
 	}
 
-	public String getPlayerName() {
-		return playerName;
-	}
-
-	public int getPlayerAge() {
+	/**
+	 * @return the age
+	 */
+	public short getAge() {
 		return age;
+	}
+
+	/**
+	 * @return the batting
+	 */
+	public Batting getBatting() {
+		return batting;
+	}
+
+	/**
+	 * @return the bowling
+	 */
+	public Bowling getBowling() {
+		return bowling;
+	}
+
+	/**
+	 * @return the fielding
+	 */
+	public Fielding getFielding() {
+		return fielding;
 	}
 }

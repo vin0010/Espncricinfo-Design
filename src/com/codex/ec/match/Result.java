@@ -1,5 +1,5 @@
 package com.codex.ec.match;
 
-public class ScoreCard {
+public class Result {
 
 }
