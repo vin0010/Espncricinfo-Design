@@ -2,203 +2,248 @@
 <class-diagram version="1.2.2" icons="true" automaticImage="JPEG" always-add-relationships="false" 
   generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
   router="FAN">  
-  <class id="1" language="java" name="com.codex.ec.country.Country" project="Espncricinfo-Design" 
-    file="/Espncricinfo-Design/src/com/codex/ec/country/Country.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="173" width="214" x="47" y="625"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="2" language="java" name="com.codex.ec.match.Match" project="Espncricinfo-Design" 
+  <class id="1" language="java" name="com.codex.ec.match.Match" project="Espncricinfo-Design" 
     file="/Espncricinfo-Design/src/com/codex/ec/match/Match.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="353" width="582" x="301" y="232"/>    
+    <position height="-1" width="-1" x="557" y="187"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="com.codex.ec.misc.Schedule" project="Espncricinfo-Design" 
-    file="/Espncricinfo-Design/src/com/codex/ec/misc/Schedule.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="119" width="172" x="480" y="37"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="4" language="java" name="com.codex.ec.player.Player" project="Espncricinfo-Design" 
+  <class id="2" language="java" name="com.codex.ec.player.Player" project="Espncricinfo-Design" 
     file="/Espncricinfo-Design/src/com/codex/ec/player/Player.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="155" width="154" x="47" y="838"/>    
+    <position height="-1" width="-1" x="263" y="302"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="com.codex.ec.provider.Commentator" project="Espncricinfo-Design" 
-    file="/Espncricinfo-Design/src/com/codex/ec/provider/Commentator.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="155" width="196" x="47" y="37"/>    
+  <class id="3" language="java" name="com.codex.ec.common.Batting" project="Espncricinfo-Design" 
+    file="/Espncricinfo-Design/src/com/codex/ec/common/Batting.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="595" y="695"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="com.codex.ec.provider.TelecastProvider" project="Espncricinfo-Design" 
-    file="/Espncricinfo-Design/src/com/codex/ec/provider/TelecastProvider.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="119" width="157" x="283" y="37"/>    
+  <class id="4" language="java" name="com.codex.ec.common.Fielding" project="Espncricinfo-Design" 
+    file="/Espncricinfo-Design/src/com/codex/ec/common/Fielding.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="139" y="675"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="com.codex.ec.umpire.Umpire" project="Espncricinfo-Design" 
-    file="/Espncricinfo-Design/src/com/codex/ec/umpire/Umpire.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="155" width="154" x="301" y="625"/>    
+  <class id="5" language="java" name="com.codex.ec.common.Bowling" project="Espncricinfo-Design" 
+    file="/Espncricinfo-Design/src/com/codex/ec/common/Bowling.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="368" y="675"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="8" language="java" name="com.codex.ec.user.User" project="Espncricinfo-Design" 
-    file="/Espncricinfo-Design/src/com/codex/ec/user/User.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="101" width="147" x="923" y="232"/>    
+  <class id="6" language="java" name="com.codex.ec.match.Result" project="Espncricinfo-Design" 
+    file="/Espncricinfo-Design/src/com/codex/ec/match/Result.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="752" y="233"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.codex.ec.statistics.BattingStatistics" project="Espncricinfo-Design" 
+    file="/Espncricinfo-Design/src/com/codex/ec/statistics/BattingStatistics.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="926" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="com.codex.ec.statistics.Statistics" project="Espncricinfo-Design" 
+    file="/Espncricinfo-Design/src/com/codex/ec/statistics/Statistics.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1298" y="562"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="9" language="java" name="com.codex.ec.user.Admin" project="Espncricinfo-Design" 
-    file="/Espncricinfo-Design/src/com/codex/ec/user/Admin.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="155" width="147" x="923" y="37"/>    
+  <class id="9" language="java" name="com.codex.ec.statistics.TeamStatistics" project="Espncricinfo-Design" 
+    file="/Espncricinfo-Design/src/com/codex/ec/statistics/TeamStatistics.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1151" y="194"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="10" language="java" name="com.codex.ec.user.GeneralAdmin" project="Espncricinfo-Design" 
-    file="/Espncricinfo-Design/src/com/codex/ec/user/GeneralAdmin.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="155" width="176" x="707" y="37"/>    
+  <class id="10" language="java" name="com.codex.ec.statistics.FieldingStatistics" project="Espncricinfo-Design" 
+    file="/Espncricinfo-Design/src/com/codex/ec/statistics/FieldingStatistics.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1601" y="194"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="11" language="java" name="com.codex.ec.match.ScoreCard" project="Espncricinfo-Design" 
-    file="/Espncricinfo-Design/src/com/codex/ec/match/ScoreCard.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="83" width="107" x="495" y="625"/>    
+  <class id="11" language="java" name="com.codex.ec.statistics.BowlingStatistics" project="Espncricinfo-Design" 
+    file="/Espncricinfo-Design/src/com/codex/ec/statistics/BowlingStatistics.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1376" y="194"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="12">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="13" name="matches">        
-        <position height="0" width="0" x="400" y="-6"/>      
-      </attribute>      
-      <multiplicity id="14" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="400" y="-6"/>      
-      </multiplicity>    
+  <class id="12" language="java" name="com.codex.ec.team.Team" project="Espncricinfo-Design" 
+    file="/Espncricinfo-Design/src/com/codex/ec/team/Team.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="173" width="166" x="774" y="540"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="13">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="14" name="batting"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
+    <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="15">    
+  <realization id="16">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <association id="17">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="16" name="players">        
-        <position height="0" width="0" x="-28" y="-154"/>      
-      </attribute>      
-      <multiplicity id="17" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="-28" y="-154"/>      
-      </multiplicity>    
+      <attribute id="18" name="result"/>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="20">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <association id="21">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="22" name="teamTwoBatting"/>      
+      <multiplicity id="23" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="24">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="25" name="matches"/>      
+      <multiplicity id="26" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="27">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="28" name="bowling"/>      
+      <multiplicity id="29" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="30">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <realization id="31">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <association id="32">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="33" name="teamOneBowling"/>      
+      <multiplicity id="34" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="35">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="36" name="teamOneBatting"/>      
+      <multiplicity id="37" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="38">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="39" name="fielding"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="18">    
-    <end type="SOURCE" refId="9"/>    
-    <end type="TARGET" refId="8"/>  
-  </realization>  
-  <association id="19">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="20" name="country2">        
-        <position height="0" width="0" x="463" y="54"/>      
-      </attribute>      
-      <multiplicity id="21" minimum="0" maximum="1">        
-        <position height="0" width="0" x="463" y="54"/>      
-      </multiplicity>    
+  <association id="41">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="42" name="teamTwoFielding"/>      
+      <multiplicity id="43" minimum="0" maximum="2147483647"/>    
     </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
+    <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="22">    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="8"/>  
-  </realization>  
-  <association id="23">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="24" name="secondUmpire">        
-        <position height="0" width="0" x="822" y="95"/>      
-      </attribute>      
-      <multiplicity id="25" minimum="0" maximum="1">        
-        <position height="0" width="0" x="822" y="95"/>      
-      </multiplicity>    
+  <association id="44">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="45" name="teamOne"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="7" navigable="true"/>    
+    <end type="TARGET" refId="12" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="26">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="27" name="firstUmpire">        
-        <position height="0" width="0" x="822" y="95"/>      
-      </attribute>      
-      <multiplicity id="28" minimum="0" maximum="1">        
-        <position height="0" width="0" x="822" y="95"/>      
-      </multiplicity>    
+  <association id="47">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="48" name="statistics"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="7" navigable="true"/>    
+    <end type="TARGET" refId="8" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="29">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="30" name="country1">        
-        <position height="0" width="0" x="463" y="54"/>      
-      </attribute>      
-      <multiplicity id="31" minimum="0" maximum="1">        
-        <position height="0" width="0" x="463" y="54"/>      
-      </multiplicity>    
+  <association id="50">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="51" name="players"/>      
+      <multiplicity id="52" minimum="0" maximum="2147483647"/>    
     </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
+    <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="32">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="33" name="scoreCard"/>      
-      <multiplicity id="34" minimum="0" maximum="1"/>    
+  <association id="53">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="54" name="teamTwoBowling"/>      
+      <multiplicity id="55" minimum="0" maximum="2147483647"/>    
     </end>    
-    <end type="TARGET" refId="11" navigable="true"/>    
+    <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="35">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="36" name="refree">        
-        <position height="0" width="0" x="822" y="95"/>      
-      </attribute>      
-      <multiplicity id="37" minimum="0" maximum="1">        
-        <position height="0" width="0" x="822" y="95"/>      
-      </multiplicity>    
+  <association id="56">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="57" name="teamOneFielding"/>      
+      <multiplicity id="58" minimum="0" maximum="2147483647"/>    
     </end>    
-    <end type="TARGET" refId="7" navigable="true"/>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="59">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="60" name="teamTwo"/>      
+      <multiplicity id="61" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
