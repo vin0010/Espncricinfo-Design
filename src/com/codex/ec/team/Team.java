@@ -2,9 +2,9 @@ package com.codex.ec.team;
 
 import java.util.List;
 
-import com.codex.ec.common.Statistics;
 import com.codex.ec.match.Match;
 import com.codex.ec.player.Player;
+import com.codex.ec.statistics.Statistics;
 import com.codex.ec.team.type.TeamType;
 
 public class Team {
